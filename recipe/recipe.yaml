@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: bioio-tifffile
-  version: "1.3.1"
+  version: "2.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/bioio_tifffile-${{ version }}.tar.gz
-  sha256: 41071ae78152698fedbd3b44effb6b7e226bf20f8c781dd3b3eb6c7f758ca3b3
+  sha256: 973b81000782e66e6f36b12daeee40a430bf2e2c733bfc035acab39c81eeb264
 
 build:
   number: 0
